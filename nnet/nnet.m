@@ -1,8 +1,6 @@
 classdef nnet < handle
     %NNET Summary of this class goes here
     %   Detailed explanation goes here
-    %   A Three Layers Neural Network
-    %   Input | Hidden | Output
     properties(GetAccess=public,SetAccess=public)
         console = true;
         verbose = true;
